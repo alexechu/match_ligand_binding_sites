@@ -1,0 +1,41 @@
+{
+ "pdb_file": "high_resolution_structures/56/pdb256b.ent.gz",
+ "ligand_name": "SO4",
+ "ligand_n_heavy_atoms": 5,
+ "ligand_number": "107 A ",
+ "ligand_total_energy": -4.717460018381541,
+ "binding_site_energies": [
+  [
+   59,
+   "59 A ",
+   "LYS",
+   {
+    "fa_atr": -2.4835343327844472,
+    "fa_rep": 0.2808136076334191,
+    "fa_sol": 5.190262199501095,
+    "fa_elec": -7.0228900940063586,
+    "lk_ball_wtd": -0.09701653197332172,
+    "hbond_bb_sc": 0.0,
+    "hbond_sc": -0.20393196602526448,
+    "weighted_total": -4.462663241089915,
+    "residue_total_energy": 3.153893403148964
+   }
+  ],
+  [
+   62,
+   "62 A ",
+   "ARG",
+   {
+    "fa_atr": -2.198053165683598,
+    "fa_rep": 0.48265354956892165,
+    "fa_sol": 4.214881954904995,
+    "fa_elec": -6.046488921875673,
+    "lk_ball_wtd": 0.860791024799513,
+    "hbond_bb_sc": 0.0,
+    "hbond_sc": -2.1148677666772535,
+    "weighted_total": -5.01827742226911,
+    "residue_total_energy": -4.846297503077851
+   }
+  ]
+ ]
+}

@@ -1,0 +1,4 @@
+binding_site_database/
+*.tar.gz
+__pycache__/
+*DS_Store
