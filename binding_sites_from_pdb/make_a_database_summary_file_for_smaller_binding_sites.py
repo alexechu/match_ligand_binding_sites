@@ -29,9 +29,10 @@ def get_sub_binding_site_info(bs_info, n_residue_to_keep):
 
 
 if __name__ == '__main__':
+    res_to_keep = 8
 
     binding_site_summary_file = 'binding_site_database_summary.json'
-    new_binding_site_summary_file = '3residue_binding_site_database_summary.json'
+    new_binding_site_summary_file = f'{res_to_keep}residue_binding_site_database_summary.json'
 
     with open(binding_site_summary_file, 'r') as f:
        bs_summary = json.load(f)
@@ -41,7 +42,7 @@ if __name__ == '__main__':
     new_bs_summary = []
 
     for bs_info in bs_summary:
-        sub_bs_info = get_sub_binding_site_info(bs_info, 3)
+        sub_bs_info = get_sub_binding_site_info(bs_info, res_to_keep)
         if not (sub_bs_info is None):
             new_bs_summary.append(sub_bs_info)
 
